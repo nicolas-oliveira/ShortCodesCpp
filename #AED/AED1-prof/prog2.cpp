@@ -1,3 +1,8 @@
+/*
+    Código feito por: Vânia Borges UEMG/PASSOS
+*/
+
+
 #include <iostream>
 #include <locale>
 
@@ -13,6 +18,6 @@ int main()
     cout << "Valor2 ";
     cin >> n2;
 
-    cout << "Soma � " << n1+n2;
+    cout << "Soma � " << n1+n2;
     return 0;
 }

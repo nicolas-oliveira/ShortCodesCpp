@@ -1,3 +1,8 @@
+/*
+    CÃ³digo feito por: VÃ¢nia Borges UEMG/PASSOS
+*/
+
+
 #include <iostream>
 
 using namespace std;
@@ -14,7 +19,7 @@ int main()
         cout << "Digite a Nota2 : ";
         cin >> n2;
         media = (n2 + n1)/2;
-        cout << "Média = "<< media;
+        cout << "Mï¿½dia = "<< media;
         if(media <4)
         {
             contReprov++; // contReprov = contReprov +1;
@@ -23,7 +28,7 @@ int main()
         if((media >=4) && (media <6))
         {
             contRec++;
-            cout << "Recuperação"<< endl;
+            cout << "Recuperaï¿½ï¿½o"<< endl;
         }
         if(media >=6)
         {
@@ -33,9 +38,9 @@ int main()
         mediaClasse +=media;//mediaClasse = mediaClasse + media;
     }// fecha o for
     mediaClasse = mediaClasse/6;
-    cout << "Média da turma ="<< mediaClasse << endl;
+    cout << "Mï¿½dia da turma ="<< mediaClasse << endl;
     cout << "Aprovados = "<< contAprov << endl;
     cout << "Reprovados = "<< contReprov << endl;
-    cout << "Recuperação = "<< contRec<< endl;
+    cout << "Recuperaï¿½ï¿½o = "<< contRec<< endl;
     return 0;
 }//fecha o main

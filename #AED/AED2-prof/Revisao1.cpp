@@ -1,3 +1,8 @@
+/*
+    CÃ³digo feito por: VÃ¢nia Borges UEMG/PASSOS
+*/
+
+
 #include <iostream>
 #include <locale>
 using namespace std;
@@ -17,7 +22,7 @@ struct TFisico{
     int cont =0 , op=0;
     setlocale(LC_ALL,"portuguese");
     do{
-        cout << "MENU Revisão"<<endl;
+        cout << "MENU Revisï¿½o"<<endl;
         cout << "1 - cadastrar" << endl;
         cout << "2 - Listar nome e altura" << endl;
         cout << "3 - Pesquisar por data" << endl;
@@ -61,7 +66,7 @@ struct TFisico{
           case  0:
             return 0;
           default :
-            cout << "Valor inválido!!";
+            cout << "Valor invï¿½lido!!";
         }
     }while ( op!=0);
     return 0;

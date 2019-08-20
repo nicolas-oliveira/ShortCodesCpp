@@ -1,3 +1,8 @@
+/*
+    Código feito por: Vânia Borges UEMG/PASSOS
+*/
+
+
 #include <iostream>
 #include <locale>
 
@@ -13,7 +18,7 @@ int main()
     cin >> nome;
     cout << "Sobrenome ";
     cin >> sobrenome;
-    cout << "Nome completo � " << nome << " "<< sobrenome << endl;
+    cout << "Nome completo � " << nome << " "<< sobrenome << endl;
 
     cout << "Digite sua idade ";
     cin >> idade;

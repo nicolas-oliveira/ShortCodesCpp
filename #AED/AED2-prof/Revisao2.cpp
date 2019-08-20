@@ -1,3 +1,8 @@
+/*
+    CÃ³digo feito por: VÃ¢nia Borges UEMG/PASSOS
+*/
+
+
 #include <iostream>
 #include <locale>
 
@@ -19,8 +24,8 @@ int main()
    TPessoa dados[10] ;
    int ind=0, op=0;
    do{
-       cout << "MENU Revisão" << endl;
-       cout << "Escolha sua opção :" << endl;
+       cout << "MENU Revisï¿½o" << endl;
+       cout << "Escolha sua opï¿½ï¿½o :" << endl;
        cout << "1 - Cadastrar" << endl;
        cout << "2 - Listar nomes e alturas"<<endl;
        cout << "3 - Buscar por data de nascimento "<< endl;
@@ -54,7 +59,7 @@ int main()
         case 0:
                return 0;
         default :
-              cout << "opção inválida!!!";
+              cout << "opï¿½ï¿½o invï¿½lida!!!";
        }
    }while(op!=0);
    return 0;

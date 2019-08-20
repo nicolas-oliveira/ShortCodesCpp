@@ -1,3 +1,8 @@
+/*
+    Código feito por: Vânia Borges UEMG/PASSOS
+*/
+
+
 #include <iostream>
 
 using namespace std;
@@ -22,6 +27,6 @@ int main()
         cout << endl;
     }
     int soma = matriz[0][0] + matriz[1][1] + matriz[2][2] ;
-    cout << "A soma d diagonal � " << soma;
+    cout << "A soma d diagonal � " << soma;
     return 0;
 }

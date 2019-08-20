@@ -1,3 +1,8 @@
+/*
+    CÃ³digo feito por: VÃ¢nia Borges UEMG/PASSOS
+*/
+
+
 #include <iostream>
 
 using namespace std;
@@ -8,11 +13,11 @@ int main()
     cout << "Digite um valor ";
     cin >> n;
     if(n %2 == 0 )
-        if(n>0) cout << n << " é um valor par positivo";
-        else    cout << n << " é um valor par negativo";
+        if(n>0) cout << n << " ï¿½ um valor par positivo";
+        else    cout << n << " ï¿½ um valor par negativo";
     else
-        if(n>0) cout << n << " é um valor ímpar positivo";
-        else    cout << n << " é um valor ímpar negativo";
+        if(n>0) cout << n << " ï¿½ um valor ï¿½mpar positivo";
+        else    cout << n << " ï¿½ um valor ï¿½mpar negativo";
     return 0;
 
 }

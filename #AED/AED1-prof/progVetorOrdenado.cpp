@@ -1,3 +1,8 @@
+/*
+    Código feito por: Vânia Borges UEMG/PASSOS
+*/
+
+
 #include <iostream>
 using namespace std;
 

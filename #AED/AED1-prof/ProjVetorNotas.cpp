@@ -1,3 +1,8 @@
+/*
+    Código feito por: Vânia Borges UEMG/PASSOS
+*/
+
+
 #include <iostream>
 
 using namespace std;
@@ -14,7 +19,7 @@ int main()
         media += notas[i]; // media = media + notas[i]
     }
     media /= 10; // media = media /10
-    cout << "M�dia = "<<media << endl;
+    cout << "M�dia = "<<media << endl;
     for (int i =0 ; i < 10; i++)
         if (notas[i] > media)
            cout << notas[i] << endl;

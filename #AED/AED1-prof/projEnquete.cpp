@@ -1,3 +1,8 @@
+/*
+    CÃ³digo feito por: VÃ¢nia Borges UEMG/PASSOS
+*/
+
+
 #include <iostream>
 #include <locale>
 #include<stdlib.h>
@@ -10,8 +15,8 @@ int main ()
    setlocale(LC_ALL,"portuguese");
    do
    {
-       cout << "Enquete Eleição CA" << endl;
-       cout << "1 - Chapa blá" << endl;
+       cout << "Enquete Eleicaoo CA" << endl;
+       cout << "1 - Chapa blo" << endl;
        cout << "2 - Chapa Eca" << endl;
        cout << "3 - Chapa Chita" << endl;
        cout << "4 - Nulo" << endl;
@@ -42,7 +47,7 @@ int main ()
    }while(op !=0);
    system("CLS");
    cout << "RESULTADO!!!" << endl;
-   cout << "Chapa blá " << (cont1*100 / total) <<"%" << endl;
+   cout << "Chapa blo " << (cont1*100 / total) <<"%" << endl;
    cout << "Chapa Eca " << (cont2*100 / total) <<"%"<<endl;
    cout << "Chapa Chita " << (cont3*100 / total) <<"%"<<endl;
    cout << "Nulo " << (contnulo*100 / total) <<"%"<< endl;

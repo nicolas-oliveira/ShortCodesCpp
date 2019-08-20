@@ -1,9 +1,15 @@
+/*
+    CÃ³digo feito por: VÃ¢nia Borges UEMG/PASSOS
+*/
+
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
+	setlocale(LC_ALL, "portuguese");
+	
     float peso[3];
     float notas[4][3];
     //leitura dos pesos
@@ -23,7 +29,7 @@ int main()
             cin >> notas[l][c];
             media += peso[c] * notas[l][c];
         }
-        cout << "A média do aluno" << (l+1) << " é : " << media/10;
+        cout << "A media do aluno" << (l+1) << " e : " << media/10;
         media =0;
         cout << endl;
     }

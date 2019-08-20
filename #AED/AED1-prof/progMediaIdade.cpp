@@ -1,3 +1,8 @@
+/*
+    CÃ³digo feito por: VÃ¢nia Borges UEMG/PASSOS
+*/
+
+
 #include <iostream>
 using namespace std;
 
@@ -14,7 +19,7 @@ int main()
        cin >> idade;
        somatorio += idade;
     }
-    cout << "média das idades = "<< (float)somatorio/num<<endl;
+    cout << "mï¿½dia das idades = "<< (float)somatorio/num<<endl;
     somatorio=0;
     //WHILE
     i =1;
@@ -25,6 +30,6 @@ int main()
        somatorio += idade;
        i++;
     }
-    cout << "média das idades = "<< (float)somatorio/num;
+    cout << "mï¿½dia das idades = "<< (float)somatorio/num;
     return 0;
 }

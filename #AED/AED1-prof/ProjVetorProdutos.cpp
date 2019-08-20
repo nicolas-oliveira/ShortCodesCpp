@@ -1,3 +1,8 @@
+/*
+    Código feito por: Vânia Borges UEMG/PASSOS
+*/
+
+
 #include <iostream>
 
 using namespace std;
@@ -21,6 +26,6 @@ int main()
         }
     } // fecha o dor
     cout << "Nome do produto de maior valor = " << nomes[y] << endl;
-    cout << "�ndice = " << y;
+    cout << "�ndice = " << y;
     return 0;
   }
