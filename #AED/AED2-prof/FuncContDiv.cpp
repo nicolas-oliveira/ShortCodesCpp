@@ -15,6 +15,6 @@ int main()
    setlocale(LC_ALL, "portuguese");
    cout << "Informe um valor inteiro ";
    cin >> n;
-   cout << "Há "<< contDiv(n) << " divisores";
+   cout << "Ha "<< contDiv(n) << " divisores";
    return 0;
 }
